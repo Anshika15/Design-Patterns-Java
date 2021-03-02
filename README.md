@@ -37,6 +37,23 @@
                     Disadvantages:- - Complexity is high
                                     - Tends to rely on other patterns.
                                     - Low popularity.
+
+### 2. Structural Patterns:- 
+      It provides a common solution to common issues realted to object structures and features of those factors is that they rely on concepts of                 inheritance, polymorphism
+      
+      Types of Structural Patterns:-
+      
+      i) Adapter Pattern:- This pattern is generally used when there is a need to combine the capabilities of the interface.
+            use cases:- - In case of legacy applications.
+                        - In case of converting an interface into another.
+                        - in case of translating a client's requests for a website.
+
+            examples of usage in Java API:-
+                        - Arrays.asList();
+                        - I/O streams
+      
+      
+      
                             
                               
     
