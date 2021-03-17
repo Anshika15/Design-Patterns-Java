@@ -87,14 +87,45 @@
        - These patterns are concerned with assigning responsibilities to the objects, therefore defining the behaviour of each object in relation to another
       
       i) Chain of responsibility pattern:- The chain of responsibility pattern is characterized by a chain of receiver objects, each object dealing with a certain aspect of your application.
-            where to use:- - when we need to perform sequential operations before reaching a specific object.
-                           - when there are multiple levels of escalation to different handlers.
+            when to use:- - when we need to perform sequential operations before reaching a specific object.
+                          - when there are multiple levels of escalation to different handlers.
                            
       ii) Command pattern:- The pattern is also known as consumer producer pattern, mainly because it allows us to decouple objects that produce the commands from their consumers.
       
       iii) Interpreter pattern:-  Interpreter pattern is used to define a grammatical representation for a language and provides an interpreter to deal with this grammar.
               weakness:- - complexity
                          - hard to maintain
-                       
+                         
+      iv) Iterator pattern:- This pattern is used whenever there's a need to traverse a data structure and access it's elements.
+              features:- - Does not expose the underlying data structure.
+                         - Algorithm decoupled from the data of the container.
+                     
+      v) Mediator pattern:- This pattern is used for mediating the exchange of messages b/w objects.
+              when to use:- - when having too many relationships b/w object.
+                            - when communication b/w objects is too complex.
+                            
+      vi) Memento pattern:- This pattern is used  Whenever we want to restore  a object to a previous state.
+              weakness:- - costly in terms of memory.
+                         - exposing information about originator.
+                         
+      vii) Observer pattern:- It describes one to many relationship b/w objects such that whenever an object changes it's state, all of the connected objects will change their state as well.
+              - It is characterized by two types of objects:- observers and subjects.
+              - The observer will match for any change in the subject's behaviour.
+              
+      viii) State pattern:- It is used whenever we want to change the state of the object, but don't want to have these changes in the underlying class.
+              features:- - useful for refractoring multiple if-else statements.
+                         - Delegates the object's state changes to other classes.
+                        
+       ix) Strategy pattern:- This pattern enables us to choose an algorithm at runtime.
+              features:- - Allows us to choose algorithms at runtime.
+                         - useful for refractoring multiple if-else statements.
+                         
+              weakness:- - client needs to know the strategies.
+                         - Big number of classes.
+                         
+        x) Template pattern:- It provides a framework for implementing an algorithm, providing a default implementation that can be later on modified in subclasses.
+        
+        xi) Visitor pattern:- The visitor pattern makes use of a visitor class, which changes the behaviour of an element class. This way the algorithm choosing for execution can vary when the visitor varies.
+                              As per the pattern, the element object has to accept the visitor object so that the visitor object handles the operation on the element object.
     
              
