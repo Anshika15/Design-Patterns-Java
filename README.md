@@ -81,4 +81,20 @@
                           - when creating a security layer for preventing unauthorized access.
                   weakness:- - It can  have a single proxy.
                              - creates complexity.
+
+
+### 3. Behavioural Patterns:-
+       - These patterns are concerned with assigning responsibilities to the objects, therefore defining the behaviour of each object in relation to another
+      
+      i) Chain of responsibility pattern:- The chain of responsibility pattern is characterized by a chain of receiver objects, each object dealing with a certain aspect of your application.
+            where to use:- - when we need to perform sequential operations before reaching a specific object.
+                           - when there are multiple levels of escalation to different handlers.
+                           
+      ii) Command pattern:- The pattern is also known as consumer producer pattern, mainly because it allows us to decouple objects that produce the commands from their consumers.
+      
+      iii) Interpreter pattern:-  Interpreter pattern is used to define a grammatical representation for a language and provides an interpreter to deal with this grammar.
+              weakness:- - complexity
+                         - hard to maintain
+                       
+    
              
